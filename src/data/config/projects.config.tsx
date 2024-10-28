@@ -10,6 +10,7 @@ export const PROJECTS = [
       "Chatme is an application that lets you talk with other person in real time. It provides a video calling feature while user can share files/pictures and also use @gpt to ask questions to AI, and many more",
     technologies: [
       "Next.js",
+      "convex BaaS",
       "Typescript",
       "Postgres",
       "GPT and DALL-E-3",
@@ -36,34 +37,34 @@ export const PROJECTS = [
     video: "",
   },
   {
-    title: "Acter - Ai to convert your ideas into UI",
-    href: "https://acter.devwtf.in",
-    // dates: "Mar 2024 - May 2024",
+    title: "2Twing - Social media application",
+    href: "https://github.com/rahul-MyGit/Twing-Twing",
+    dates: "Mar 2024 - May 2024",
     featured: true,
-    active: true,
     description:
       "Acter is an Ai tool which will help you to convert your ideas into great UI and it supports a huge number of popular UI libraries and frameworks which will make your work easier to modify any existing code from any library. And also you can generate your UI using a particular framework and UI library.",
     technologies: [
-      "Next.js",
+      "Reactjs",
       "Typescript",
-      "Xata DB",
-      "RAG",
-      "Vercel ai sdk",
-      "Postgress",
+      "MongoDB",
+      "JWT cookies",
+      "Nodejs",
+      "Mongoose",
+      "cloudinary"
     ],
     links: [
       {
         type: "Website",
-        href: "https://acter.devwtf.in",
+        href: "https://twing-twing.onrender.com/",
         icon: <Icons.globe className="size-3" />,
       },
       {
         type: "Source",
-        href: "https://l.devwtf.in/acter",
+        href: "https://github.com/rahul-MyGit/Twing-Twing",
         icon: <Icons.github className="size-3" />,
       },
     ],
-    image: "https://i.imgur.com/JwDi96s.png",
+    image: "https://i.imgur.com/39kUnJr.png",
     video: "",
   },
   {
