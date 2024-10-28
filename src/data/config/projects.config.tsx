@@ -2,37 +2,37 @@ import { Icons } from "@/components/icons";
 
 export const PROJECTS = [
   {
-    title: "x0-GPT - Ai powered brain",
-    href: "https://x0-gpt.devwtf.in",
-    dates: "Jul 2024 - Aug 2024",
+    title: "Chatme - real time chatting applications",
+    href: "https://github.com/rahul-MyGit/Chat-me",
+    dates: "Aug 2024 - Oct 2024",
     featured: true,
     description:
-      "x0-GPT is a free AI tool that lets you interact with websites, PDFs, and documents in real-time. It provides quick answers and insights directly from your chosen sources, all while keeping your data private. It's easy to use and versatile, making information more accessible than ever.",
+      "Chatme is an application that lets you talk with other person in real time. It provides a video calling feature while user can share files/pictures and also use @gpt to ask questions to AI, and many more",
     technologies: [
       "Next.js",
       "Typescript",
       "Postgres",
-      "Upstash rag-chat sdk",
-      "Vercel ai sdk",
-      "Supabase",
-      "TailwindCSS",
-      "Acternity UI",
+      "GPT and DALL-E-3",
       "Shadcn UI",
-      "Magic UI",
+      "Prisma",
+      "Clerk",
+      "Webhook",
+      "Zustang",
+      "ZEGOCLOUD",
     ],
     links: [
       {
         type: "Website",
-        href: "https://x0-gpt.devwtf.in",
+        href: "https://chat-me-lilac.vercel.app/",
         icon: <Icons.globe className="size-3" />,
       },
       {
         type: "Source",
-        href: "https://git.new/pvOF6aq",
+        href: "https://github.com/rahul-MyGit/Chat-me",
         icon: <Icons.github className="size-3" />,
       },
     ],
-    image: "https://i.imgur.com/ffeIgzW.png",
+    image: "https://i.imgur.com/tae7jBv.png",
     video: "",
   },
   {

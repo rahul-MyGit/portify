@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   images: {
     domains: [
-      'i.imgur.com'
+      'i.imgur.com', 'imgur.com'
     ],
   },
 };

@@ -401,6 +401,9 @@ export default function Home() {
                 Want to follow my journey? Just subscribe to my newsletter
                 bellow and get the latest updates. I don&apos;t spam!
               </p>
+              <p className="text-red-600 text-sm">
+                I'll add start the newspaper later so it doesn't work now :-)
+              </p>
               <div className="pt-10">
                 {!isNsl ? (
                   <PlaceholdersAndVanishInput

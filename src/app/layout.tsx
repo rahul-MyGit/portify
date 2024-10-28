@@ -108,9 +108,9 @@ export default function RootLayout({
             <TopNavbar />
           </div>
         {children}
-        <div className="block md:hiden">
+        {/* <div className="block md:hiden">
           <BottomNavbar />
-        </div>
+        </div> */}
         {/* <ScheduleCallFloat /> */}
         {/* <Analytics /> */}
         <Toaster />

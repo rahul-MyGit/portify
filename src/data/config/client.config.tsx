@@ -1,27 +1,30 @@
 
 export const CLIENTWORKS = [
     {
-      title: "BOXCHAT - One chat for all ai models",
-      dates: "9th Sep 2024 - 22nd Sep 2024",
+      title: "eventgreek - book events in few clicks",
+      dates: "1st Oct 2024 - in Progress...",
       worktype: "Fullstack",
-      testimonial: "https://firebasestorage.googleapis.com/v0/b/archives-63571.appspot.com/o/portfolio%2Ftestimonials%2Fboxchat-testimonial.mp4?alt=media&token=51be6968-e40f-4074-a0f7-026f98930671",
+      //TODO: Add a video here as testemonial
+      testimonial: "",
       featured: true,
       description:
-        "BOXCHAT is a SAAS that lets you interact with websites, PDFs, and documents in real-time. It provides quick answers and insights directly from your chosen sources, it gives multiple ai models feature to sync your questions and get different responses at a time.",
-        features: "Playground feature like **Vercel**. Chat feature like **ChatGPT**. Text to image generation.",
+        "Eventgreek is an application that lets you book seats with different events. It provides a seat-locking feature while booking to prevent concurrency issues. User can book an event, create an event, check booked events seats with Qrcode shown, and many more",
+        features: "Create a event like **bookmyshow**. Book a event like **seatgreek**. Easy and secure payment process.",
       technologies: [
-        "Next.js",
+        "Next.js 14",
         "Typescript",
         "Postgres",
-        "Upstash rag-chat sdk",
-        "Vercel ai sdk",
-        "Supabase",
-        "TailwindCSS",
-        "Acternity UI",
-        "Shadcn UI",
-        "Magic UI",
+        "shadcn",
+        "next-auth v5",
+        "Razorpay",
+        "Prisma",
+        "CICD",
+        "Kubernetes",
+        "Daisy UI",
+        "ArgoCD"
       ],
       image: "",
-      video: "https://firebasestorage.googleapis.com/v0/b/archives-63571.appspot.com/o/portfolio%2Fboxchat-preview.mp4?alt=media&token=e18c270b-dbce-4588-838e-2162c2de4bd8",
+      //TODO: Add a video here for UI
+      video: "",
     },
   ]
