@@ -6,6 +6,7 @@ export const PROJECTS = [
     href: "https://github.com/rahul-MyGit/Chat-me",
     dates: "Aug 2024 - Oct 2024",
     featured: true,
+    active: false,
     description:
       "Chatme is an application that lets you talk with other person in real time. It provides a video calling feature while user can share files/pictures and also use @gpt to ask questions to AI, and many more",
     technologies: [
@@ -42,12 +43,13 @@ export const PROJECTS = [
     dates: "Mar 2024 - May 2024",
     featured: true,
     description:
-      "Acter is an Ai tool which will help you to convert your ideas into great UI and it supports a huge number of popular UI libraries and frameworks which will make your work easier to modify any existing code from any library. And also you can generate your UI using a particular framework and UI library.",
+      "2Twing is a social media app with Cloudinary for image storage, Zod for validation, JWT cookie for authentication, and core features like posting, following, comments, and interactions. Enhanced performance by usin react-query for global state.",
     technologies: [
       "Reactjs",
       "Typescript",
       "MongoDB",
       "JWT cookies",
+      "React Query",
       "Nodejs",
       "Mongoose",
       "cloudinary"

@@ -293,7 +293,7 @@ export default function Home() {
                         </h2>
                         <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                           I&apos;ve worked on a variety of cool shits, from
-                          simple websites to mobile apps to complex IoT
+                          simple websites to mobile apps to complex ML Algorithms
                           projects. Here are a few of my favorites. You can find
                           more on my{" "}
                           <Link
@@ -343,8 +343,7 @@ export default function Home() {
                         </h2>
                         <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                           I&apos;ve experience working on a range of client
-                          projects, from freelance assignments to corporate
-                          work. Feel free to explore more of my professional
+                          projects. Feel free to explore more of my professional
                           portfolio on my{" "}
                           <Link
                             href="/projects"
