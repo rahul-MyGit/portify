@@ -2,23 +2,23 @@ import { ExternalLink, Link } from "lucide-react";
 
 export const WORK = [
   {
-    title: "Ellenox",
-    role: "Community Engagement Intern",
-    dates: "Apr - Jun, 2024",
-    location: "Remote, Hydrabad (India)",
+    title: "SmartKnower",
+    role: "Machine learning Intern",
+    dates: "Jan - Mar, 2021",
+    location: "Remote, Bangalore (India)",
     description:
-      "I managed hackathons and tech support for the Ellenox community. I also managed the Ellenox Discord server of 2000+ members.",
-    image: "/ellenox.jpeg",
-    mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      "I preformed an ELT operation on dataset given to me and make it compatible to the algorithm that company was using to predict the courses that students might want to take in specific places.",
+    image: "",
+    mlh: "",
     links: [
       {
         title: "Website",
-        href: "https://www.ellenox.com/",
+        href: "",
         icon: <Link className="size-3" />,
       },
       {
         title: "Proof",
-        href: "https://dub.sh/saidev-linkedin",
+        href: "https://www.linkedin.com/in/rahul-mylink1/",
         icon: <ExternalLink className="size-3" />,
       },
     ],
