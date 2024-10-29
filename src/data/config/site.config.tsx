@@ -4,7 +4,7 @@ export const DATA = {
     name: "Rahul Gujjar",
     initials: "RG",
     url: "",
-    resume: "",
+    resume: "https://drive.google.com/file/d/1LN6rAKKv5W6zIyCkHdlDNKkxnRAoSxZH/view",
     prevImage: "https://i.imgur.com/zTtzvAu.png",
     myImage: "/me2.png",
     location: "Bangalore, India",
@@ -14,12 +14,12 @@ export const DATA = {
     description:
       "22-year-old tech enthusiast, sports lover and OS contributor.",
     about:
-      "I'm a super introvert nurtured in a small state [Haryana, India](https://maps.app.goo.gl/cooF693NygoKZjCE9), passionate about building impactful products that leverage technology to make a difference. I often share my work to [contribute](https://git.new/skidgod) to the community. In addition to my development work, I'm always exploring new ideas, particularly in areas like machine learning and robotics.\n\n In my free time i play games, listen music also i love to read books of *self-help* genre. I'm a huge fan of Iron Man. He inspires me a lot.\n\nIt's a pleasure to meet you!",
-    bio: "I'm a super introvert nurtured in a small state [Haryana, India](https://maps.app.goo.gl/cooF693NygoKZjCE9), passionate about building impactful products that leverage technology to make a difference. I often share my work to [contribute](https://git.new/skidgod) to the community. In addition to my development work, I'm always exploring new ideas, particularly in areas like machine learning and robotics.",
+      "I'm a super introvert nurtured in a small state [Haryana, India](https://maps.app.goo.gl/cooF693NygoKZjCE9), passionate about building impactful products that leverage technology to make a difference. I often share my work to [contribute](https://github.com/rahul-MyGit/) to the community. In addition to my development work, I'm always exploring new ideas, particularly in areas like machine learning and robotics.\n\n In my free time i play games, listen music also i love to read books of *self-help* genre. I'm a huge fan of Iron Man. He inspires me a lot.\n\nIt's a pleasure to meet you!",
+    bio: "I'm a super introvert nurtured in a small state [Haryana, India](https://maps.app.goo.gl/cooF693NygoKZjCE9), passionate about building impactful products that leverage technology to make a difference. I often share my work to [contribute](https://github.com/rahul-MyGit/) to the community. In addition to my development work, I'm always exploring new ideas, particularly in areas like machine learning and robotics.",
     career:
-      "I started as a self-taught developer at the age of 20, while I was in 2nd year and it's been a rollercoaster ride since then. Am aka [kovachi](https://dub.sh/skidgod) on the internet. Won't you ask me what does it mean? [Click here to know](/about).",
+      "I started as a self-taught developer at the age of 20, while I was in 2nd year and it's been a rollercoaster ride since then. Am aka [kovachi](https://github.com/rahul-MyGit/) on the internet. Won't you ask me what does it mean? [Click here to know](/about).",
     careerFull:
-      "I began my journey as a self-taught developer at 14, during 8th grade, and it's been a rollercoaster ever since. Online, I'm known as [kovachi](https://dub.sh/skidgod), a name that reflects my roots—starting as an shell that is used for crafting.\n\nBack in 2019, I was just an average kid with little tech knowledge. When the pandemic hit, everything moved online, and I got a Poco F1 for attending classes. But, I quickly turned it into a gaming device, getting hooked on ***PUBG***. This led me to join Discord gaming servers, where I discovered the world of Discord bots.\n\nI met a guy named Priyanshu, the creator of the 'Groot' bot, and got inspired. I spent a year skidding code on Replit, eventually learning Python. I then built a successful wrote alorithms which is a modified version of Random Forest algorithm. Despite being boring for being a unskilled child, I embraced the name kovachi and started contributing to open-source projects.\n\nAnd that's how my career began.",
+      "I began my journey as a self-taught developer at 14, during 8th grade, and it's been a rollercoaster ever since. Online, I'm known as [kovachi](https://github.com/rahul-MyGit/), a name that reflects my roots—starting as an shell that is used for crafting.\n\nBack in 2019, I was just an average kid with little tech knowledge. When the pandemic hit, everything moved online, and I got a Poco F1 for attending classes. But, I quickly turned it into a gaming device, getting hooked on ***PUBG***. This led me to join Discord gaming servers, where I discovered the world of Discord bots.\n\nI met a guy named Priyanshu, the creator of the 'Groot' bot, and got inspired. I spent a year skidding code on Replit, eventually learning Python. I then built a successful wrote alorithms which is a modified version of Random Forest algorithm. Despite being boring for being a unskilled child, I embraced the name kovachi and started contributing to open-source projects.\n\nAnd that's how my career began.",
     avatarUrl: "/me.jpg",
     connect:
       "Let's connect and build something cool together. Feel free to reach out to me. I'm always open to new opportunities and collaborations. Reach out to me via **email: (rahul.mymail1@gmail.com)** or dm me on [Twitter](https://x.com/rahul_meX)",
@@ -61,7 +61,7 @@ export const DATA = {
         },
         Instagram: {
           name: "Instagram",
-          url: "https://dub.sh/saidev-instagram",
+          url: "",
           icon: Icons.x,
   
           navbar: true,

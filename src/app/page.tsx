@@ -45,6 +45,8 @@ export default function Home() {
   const [mail, setMail] = useState("");
 
   useEffect(() => {
+    if(blogPosts.length > 0) return;
+
     const fetchBlogPosts = async () => {
       try {
         const response = await fetch("/api/blogs");
@@ -59,29 +61,17 @@ export default function Home() {
     };
 
     const checkNewsletterSubscription = () => {
-      if (typeof window !== "undefined") {
-        const newsletterSubscription = localStorage.getItem("devwtf-nsl");
-        if (newsletterSubscription) {
-          setIsNsl(true);
-        } else {
-          setIsNsl(false);
-        }
-      }
+        setIsNsl(Boolean(localStorage.getItem("devwtf-nsl")))
     };
-
-    if (!isNsl && blogPosts.length === 0) {
-      checkNewsletterSubscription();
-    }
-
-    if (blogPosts.length === 0) {
-      fetchBlogPosts();
-    }
-  }, [blogPosts.length, isNsl]);
+    checkNewsletterSubscription();
+    fetchBlogPosts();
+    
+  }, [blogPosts.length]);
 
   const [hovering, setHovering] = useState(false);
   const [currentTime, setCurrentTime] = useState(new Date());
   const placeholders = [
-    "connect.saidev@gmail.com",
+    "rahul.mymail1@gmail.com",
     "Dive deeper into the world of tech and beyond. Hit subscribe!",
     "Curious about everything? subscribe now!",
     "Write a Javascript method to reverse a string",
