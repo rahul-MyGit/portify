@@ -149,13 +149,13 @@ export const PROJECTS = [
     video: "",
   },
   {
-    title: "Maical arena - My first typeScript CLI Game",
+    title: "Magical arena - My first typeScript CLI Game",
     href: "https://github.com/rahul-MyGit/magical-arena",
     dates: "Feb 2024 -Feb 2024",
     featured: false,
     archived: true,
     description:
-      "All in one python discord bot. Source code was migrated from Replit to Github laterA CLI-based battle simulator built with TypeScript, leveraging OOP principles for seamless player management and combat scenarios. Manage players, start wars, and exit the arena, with robust testing ensured through the Vitest library.",
+      "A CLI-based battle simulator built with TypeScript, leveraging OOP principles for seamless player management and combat scenarios. Manage players, start wars, and exit the arena, with robust testing ensured through the Vitest library.",
     technologies: [
       "TypeScript",
       "OOPS",
