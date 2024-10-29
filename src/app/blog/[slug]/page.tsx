@@ -14,15 +14,10 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 
-export async function generateMetadata({
-  params,
-}: {
-  params: {
-    slug: string;
-  };
-}): Promise<Metadata | undefined> {
-    const {slug}  =  params;
+export async function generateMetadata({params}: any) {
+  const {slug} = await params;
   const post = await getPost(slug);
+  
 
   if (!post) {
     return;
@@ -82,14 +77,9 @@ export async function generateMetadata({
   };
 }
 
-export default async function Blog({
-  params,
-}: {
-  params: {
-    slug: string;
-  };
-}) {
-  const post = await getPost(params.slug);
+export default async function Blog({params}: any) {
+  const {slug} =  await params;
+  const post = await getPost(slug);
 
   if (!post) {
     notFound(); // Trigger 404 page
