@@ -5,7 +5,7 @@ export const DATA = {
     initials: "RG",
     url: "",
     resume: "https://drive.google.com/file/d/1LN6rAKKv5W6zIyCkHdlDNKkxnRAoSxZH/view",
-    prevImage: "https://i.imgur.com/zTtzvAu.png",
+    prevImage: "https://i.imgur.com/ooHKc0M.png",
     myImage: "/me.png",
     location: "Bangalore, India",
     locationLink: "https://www.google.com/maps/place/Officers'+Mess+Road,+Air+Force+StationJalahalli+East/@13.0637516,77.5437748,18.67z/data=!4m15!1m8!3m7!1s0x3bae3d5cd10c0627:0xd11ad0f9a74b526d!2sJalahalli,+Bengaluru,+Karnataka!3b1!8m2!3d13.0454314!4d77.5478699!16s%2Fm%2F0267n26!3m5!1s0x3bae231291c2d19b:0xc65dd6e6c8307e8a!8m2!3d13.0637439!4d77.5446283!16s%2Fg%2F11pd2h836w?entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D",
