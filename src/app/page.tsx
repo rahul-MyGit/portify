@@ -1,4 +1,5 @@
 "use client";
+
 import { useState, useEffect } from "react";
 import { Lens } from "@/components/acernityui/lens";
 import BlurFade from "@/components/magicui/blur-fade";
@@ -9,10 +10,10 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/config/site.config";
 import {
   AlarmClock,
-  CircleArrowOutUpRight,
+  // CircleArrowOutUpRight,
   LocateFixed,
   Paperclip,
-  PartyPopper,
+  // PartyPopper,
 } from "lucide-react";
 import Link from "next/link";
 import Markdown from "react-markdown";
