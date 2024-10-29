@@ -30,7 +30,7 @@ export default function About() {
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
           <Image
-            src="/quote.jpeg"
+            src="/quote.jpg"
             alt="quote"
             width={1920}
             height={1080}

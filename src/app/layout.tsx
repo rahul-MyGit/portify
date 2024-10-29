@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./globals.css";
 import { ThemeProvider } from "@/components/ui/theme-provider";
 import { cn } from "@/lib/utils";
@@ -102,15 +101,15 @@ export default function RootLayout({
           fontSans.variable,
         )}
       >
-      <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
+      <ThemeProvider attribute="class" defaultTheme="dark" >
         <TooltipProvider delayDuration={0}>
           <div className="hidden md:block">
             <TopNavbar />
           </div>
         {children}
-        {/* <div className="block md:hiden">
+        <div className="block md:hiden">
           <BottomNavbar />
-        </div> */}
+        </div>
         {/* <ScheduleCallFloat /> */}
         {/* <Analytics /> */}
         <Toaster />

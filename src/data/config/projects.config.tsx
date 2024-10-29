@@ -2,6 +2,32 @@ import { Icons } from "@/components/icons";
 
 export const PROJECTS = [
   {
+    title: "doubtgreek - A place where dev enthusiast can ask questions",
+    href: "https://github.com/rahul-MyGit/greekdoubts",
+    // dates: "Oct 2024 - developing ...",
+    featured: true,
+    active: true,
+    description:
+      "Your go-to platform for resolving coding doubts and technical queries. It offers a seamless Q&A experience, empowering users to ask, answer, and explore solutions collaboratively",
+    technologies: [
+      "Next.js",
+      "Typescript",
+      "Prisma",
+      "next-auth",
+      "Shadcn UI",
+      "vitest"
+    ],
+    links: [
+      {
+        type: "Source",
+        href: "https://github.com/rahul-MyGit/greekdoubts",
+        icon: <Icons.github className="size-3" />,
+      },
+    ],
+    image: "",
+    video: "",
+  },
+  {
     title: "Chatme - real time chatting applications",
     href: "https://github.com/rahul-MyGit/Chat-me",
     dates: "Aug 2024 - Oct 2024",
@@ -38,10 +64,38 @@ export const PROJECTS = [
     video: "",
   },
   {
+    title: "MoneyPay - a website for Paytm App",
+    href: "https://github.com/rahul-MyGit/MoneyPay",
+    dates: "June 2024 - July 2024",
+    featured: false,
+    description:
+      "A robust payment platform enabling seamless money transfers, wallet management, and card-based transactions. Powered by Next.js, Express, and Prisma, it ensures fast, secure operations with 50% improved data protection and streamlined CICD deployment",
+    technologies: [
+      "Turborepo",
+      "Next.js",
+      "webhook",
+      "Typescript",
+      "CICD",
+      "redis",
+      "Prisma",
+      "TailwindCSS",
+      "Shadcn UI",
+    ],
+    links: [
+      {
+        type: "Source",
+        href: "https://github.com/rahul-MyGit/MoneyPay",
+        icon: <Icons.github className="size-3" />,
+      },
+    ],
+    image: "",
+    video: "",
+  },
+  {
     title: "2Twing - Social media application",
     href: "https://github.com/rahul-MyGit/Twing-Twing",
     dates: "Mar 2024 - May 2024",
-    featured: true,
+    featured: false,
     description:
       "2Twing is a social media app with Cloudinary for image storage, Zod for validation, JWT cookie for authentication, and core features like posting, following, comments, and interactions. Enhanced performance by usin react-query for global state.",
     technologies: [
@@ -70,105 +124,48 @@ export const PROJECTS = [
     video: "",
   },
   {
-    title: "Evently - Chromium extension for event auditing",
-    href: "https://evently.devwtf.in",
-    dates: "Sept 2024 - Sept 2024",
-    featured: false,
-    description:
-      "Your essential companion for event auditing. It features a straightforward countdown timer that can be displayed in new tabs within Chromium-based browsers, providing users with a simple yet effective way to track time until their event.",
-    technologies: [
-      "Next.js",
-      "Typescript",
-      "React",
-      "TailwindCSS",
-      "Shadcn UI",
-    ],
-    links: [
-      {
-        type: "Website",
-        href: "https://evently.devwtf.in",
-        icon: <Icons.globe className="size-3" />,
-      },
-      {
-        type: "Source",
-        href: "https://git.new/ESRt29k",
-        icon: <Icons.github className="size-3" />,
-      },
-    ],
-    image: "https://i.imgur.com/JI752LF.png",
-    video: "",
-  },
-  {
-    title: "FPC - Freelancer Price Calculator",
-    href: "https://freelance-price-calculator.devwtf.in/",
-    dates: "Sept 2024 - Sept 2024",
-    featured: false,
-    description:
-      "A powerful and intuitive tool for freelancers to calculate project prices and convert currencies realtime.",
-    technologies: [
-      "Next.js",
-      "Currency Api",
-      "Typescript",
-      "React",
-      "TailwindCSS",
-      "Shadcn UI",
-    ],
-    links: [
-      {
-        type: "Website",
-        href: "https://freelance-price-calculator.devwtf.in/",
-        icon: <Icons.globe className="size-3" />,
-      },
-      {
-        type: "Source",
-        href: "https://git.new/tValGOy",
-        icon: <Icons.github className="size-3" />,
-      },
-    ],
-    image: "https://i.imgur.com/1zeZewW.png",
-    video: "",
-  },
-  {
-    title: "Telegram Member Adder",
-    // href: "https://github.com/SkidGod4444/TeleGram-Member-Adder",
+    title: "Blogies",
+    href: "https://github.com/rahul-MyGit/Notion-Blog",
     dates: "Apr 2023 - Apr 2023",
     featured: false,
     archived: true,
     description:
-      "A python code to scrap telegram group members data and adds them to another telegram group..",
+      "A serverless blogging platform built with React, Hono, and Prisma, delivering fast and efficient post creation and browsing. Features JWT-based authentication and TypeScript throughout, achieving 60% improved performance and 90% faster hosting.",
     technologies: [
-      "Scrapping",
-      "Telegram API",
-      "Python",
+      "Reactjs",
+      "Hono.js",
+      "Prisma",
+      "TypeScript",
+      "cloudflare"
     ],
     links: [
       {
         type: "Source",
-        href: "https://github.com/SkidGod4444/TeleGram-Member-Adder",
+        href: "https://github.com/rahul-MyGit/Notion-Blog",
         icon: <Icons.github className="size-3" />,
       },
     ],
-    image: "",
+    image: "https://i.imgur.com/MkJZcOB.png",
     video: "",
   },
   {
-    title: "Sputnik - My first python discord bot",
-    dates: "Oct 2022 - Sept 2023",
+    title: "Maical arena - My first typeScript CLI Game",
+    href: "https://github.com/rahul-MyGit/magical-arena",
+    dates: "Feb 2024 -Feb 2024",
     featured: false,
     archived: true,
     description:
-      "All in one python discord bot. Source code was migrated from Replit to Github later.",
+      "All in one python discord bot. Source code was migrated from Replit to Github laterA CLI-based battle simulator built with TypeScript, leveraging OOP principles for seamless player management and combat scenarios. Manage players, start wars, and exit the arena, with robust testing ensured through the Vitest library.",
     technologies: [
-      "Discord.py",
-      "Discord API",
-      "Python",
-      "Replit",
-      "Json DB",
+      "TypeScript",
+      "OOPS",
+      "vitest",
+      "CLI",
     ],
     links: [
       {
         type: "Source",
-        href: "https://github.com/SkidGod4444/Sputnik",
+        href: "https://github.com/rahul-MyGit/magical-arena",
         icon: <Icons.github className="size-3" />,
       },
     ],
