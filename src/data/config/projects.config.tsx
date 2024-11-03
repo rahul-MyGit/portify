@@ -18,6 +18,11 @@ export const PROJECTS = [
       "vitest"
     ],
     links: [
+      // {
+      //   type: "Website",
+      //   href: "",
+      //   icon: <Icons.globe className="size-3" />,
+      // },
       {
         type: "Source",
         href: "https://github.com/rahul-MyGit/greekdoubts",
@@ -25,6 +30,40 @@ export const PROJECTS = [
       },
     ],
     image: "",
+    video: "",
+  },
+  {
+    title: "datingPlace - A place where you can swipe left/right on your preference date",
+    href: "https://github.com/rahul-MyGit/datingPlace",
+    // dates: "Oct 2024 - Nov 2024",
+    featured: true,
+    active: true,
+    description:
+      "Your ultimate matchmaking platform designed for meaningful connections. This app provides an engaging swipe experience, enabling users to connect with ease. With real-time chat powered by WebSocket and a modern MERN stack foundation, it offers seamless interactions, creating a dynamic and responsive dating environment.",
+    technologies: [
+      "Reactjs",
+      "Typescript",
+      "Nodejs",
+      "jwt-cookies",
+      "tailwind",
+      "daisyUI",
+      "MongoDB",
+      "websocket",
+      "cloudinary",
+    ],
+    links: [
+      // {
+      //   type: "Website",
+      //   href: "",
+      //   icon: <Icons.globe className="size-3" />,
+      // },
+      {
+        type: "Source",
+        href: "https://github.com/rahul-MyGit/greekdoubts",
+        icon: <Icons.github className="size-3" />,
+      },
+    ],
+    image: "https://i.imgur.com/DbLGw4w.png",
     video: "",
   },
   {
@@ -95,7 +134,7 @@ export const PROJECTS = [
     title: "2Twing - Social media application",
     href: "https://github.com/rahul-MyGit/Twing-Twing",
     dates: "Mar 2024 - May 2024",
-    featured: false,
+    featured:true,
     description:
       "2Twing is a social media app with Cloudinary for image storage, Zod for validation, JWT cookie for authentication, and core features like posting, following, comments, and interactions. Enhanced performance by usin react-query for global state.",
     technologies: [

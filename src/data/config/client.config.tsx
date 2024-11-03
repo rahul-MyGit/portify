@@ -1,7 +1,7 @@
 
 export const CLIENTWORKS = [
     {
-      title: "eventgreek - book events in few clicks",
+      title: "eventEase - book events in few clicks",
       dates: "1st Oct 2024 - in Progress...",
       worktype: "Fullstack",
       //TODO: Add a video here as testemonial
@@ -23,7 +23,7 @@ export const CLIENTWORKS = [
         "Daisy UI",
         "ArgoCD"
       ],
-      image: "",
+      image: "https://i.imgur.com/AhHAMai.png",
       //TODO: Add a video here for UI
       video: "",
     },
