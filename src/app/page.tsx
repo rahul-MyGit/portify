@@ -289,9 +289,9 @@ export default function Home() {
                           more on my{" "}
                           <Link
                             href="/projects"
-                            className="text-blue-500 hover:underline"
+                            className="text-blue-500 hover:underline text-xl font-semibold"
                           >
-                            projects page
+                            PROJECTS PAGE
                           </Link>
                           .
                         </p>
