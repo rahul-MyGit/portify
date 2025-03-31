@@ -2,6 +2,38 @@ import { Icons } from "@/components/icons";
 
 export const PROJECTS = [
   {
+    title: "HLS Transcoder - Video Processing with AWS & FFmpeg",
+    href: "https://github.com/rahul-MyGit/hls-transcoding",
+    dates: "Dec 2024 - Dec 2024",
+    featured: true,
+    active: true,
+    description:
+      "A scalable HLS transcoding system that processes videos using AWS S3, FFmpeg, and RabbitMQ. Supports multipart video uploads, background processing with child processes as workers, and efficient queue management for fault-tolerant transcoding.",
+    technologies: [
+      "Node.js",
+      "React.js",
+      "FFmpeg",
+      "AWS S3",
+      "RabbitMQ",
+      "Child Process",
+      "HLS Streaming"
+    ],
+    links: [
+      // {
+      //   type: "Website",
+      //   href: "",
+      //   icon: <Icons.globe className="size-3" />,
+      // },
+      {
+        type: "Source",
+        href: "https://github.com/rahul-MyGit/hls-transcoding",
+        icon: <Icons.github className="size-3" />,
+      },
+    ],
+    image: "",
+    video: "",
+  },
+  {
     title: "botai - A bot that'll give you summary of your video call",
     href: "https://github.com/rahul-MyGit/botai",
     dates: "Nov 2024 - Nov 2024",

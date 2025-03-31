@@ -4,7 +4,7 @@ export const DATA = {
     name: "Rahul Gujjar",
     initials: "RG",
     url: "",
-    resume: "https://drive.google.com/file/d/1LN6rAKKv5W6zIyCkHdlDNKkxnRAoSxZH/view",
+    resume: "https://drive.google.com/file/d/1j4NMmdnSz9NtdObL64tVhrOof_fsr2Xh/view?usp=sharing",
     prevImage: "https://i.imgur.com/ooHKc0M.png",
     myImage: "/me.png",
     location: "Bangalore, India",
@@ -12,7 +12,7 @@ export const DATA = {
     timeZone: "Asia/Kolkata",
     localCode: "en-IN",
     description:
-      "22-year-old tech enthusiast, sports lover and OS contributor.",
+      "24-year-old tech enthusiast, sports lover and OS contributor.",
     about:
       "I'm a super introvert nurtured in a small state [Haryana, India](https://maps.app.goo.gl/cooF693NygoKZjCE9), passionate about building impactful products that leverage technology to make a difference. I often share my work to [contribute](https://github.com/rahul-MyGit/) to the community. In addition to my development work, I'm always exploring new ideas, particularly in areas like machine learning and robotics.\n\n In my free time i play games, listen music also i love to read books of *self-help* genre. I'm a huge fan of Iron Man. He inspires me a lot.\n\nIt's a pleasure to meet you!",
     bio: "I'm a super introvert nurtured in a small state [Haryana, India](https://maps.app.goo.gl/cooF693NygoKZjCE9), passionate about building impactful products that leverage technology to make a difference. I often share my work to [contribute](https://github.com/rahul-MyGit/) to the community. In addition to my development work, I'm always exploring new ideas, particularly in areas like machine learning and robotics.",
@@ -24,15 +24,15 @@ export const DATA = {
     connect:
       "Let's connect and build something cool together. Feel free to reach out to me. I'm always open to new opportunities and collaborations. Reach out to me via **email: (rahul.mymail1@gmail.com)** or dm me on [Twitter](https://x.com/rahul_meX)",
     skills: [
-      "React",
+      "MERN",
       "Next.js",
       "Typescript",
       "Prisma",
-      "MERN",
       "Python",
+      "FastAPI",
       "Postgres",
       "Javascript",
-      "Devops (docker , k8s)"
+      "Devops (docker , k8s , aws)"
     ],
     contact: {
       email: "rahul.mymail1@gmail.com",
