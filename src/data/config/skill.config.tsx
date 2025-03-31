@@ -9,20 +9,19 @@ export const SKILLS = [
       "ShadCN UI",
       "Tanstack Query",
       "Redux",
-      "Recoil",
     ],
   },
   {
     category: "Javascript runtime",
-    technologies: ["Node.js", "Bun", "Edge runtime (Vercel)", "CF Worker"],
+    technologies: ["Node.js", "pnpm", "Bun", "Edge runtime (Vercel)", "CF Worker"],
   },
   {
     category: "Backend",
-    technologies: ["Hono.js", "Express.js", "websocket", "gRPC", "Next.js"],
+    technologies: ["Hono.js", "Express.js", "websocket", "gRPC", "Next.js", "lambda"],
   },
   {
-    category: "Database(ORM and ODM)",
-    technologies: ["Prisma", "Mongoose"],
+    category: "Database(including ORM and ODM)",
+    technologies: ["Prisma", "Mongoose", "DynamoDB", "PostgreSQL", "MySQL", "Arora"],
   },
   {
     category: "Mobile",
@@ -30,7 +29,7 @@ export const SKILLS = [
   },
   {
     category: "Firmware",
-    technologies: ["C++", "Python", "Java"],
+    technologies: ["C++", "Python", "Java", "Javascript", "Typescript"],
   },
   {
     category: "Extra",
