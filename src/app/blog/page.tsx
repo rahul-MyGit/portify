@@ -3,9 +3,34 @@ import BlurFade from "@/components/magicui/blur-fade";
 import { getBlogPosts } from "@/data/blog";
 import Link from "next/link";
 
-export const metadata = {
+import { Metadata } from "next";
+import { DATA } from "@/data/config/site.config";
+
+const blogDescription = `Read ${DATA.name}'s thoughts on software development, technology, programming, and life.`;
+
+export const metadata: Metadata = {
   title: "Blog",
-  description: "My thoughts on software development, life, and more.",
+  description: blogDescription,
+  keywords: [
+    `${DATA.name} Blog`,
+    "Tech Blog",
+    "Programming Blog",
+    "Software Development",
+    "Web Development Blog",
+  ],
+  openGraph: {
+    title: `Blog | ${DATA.name}`,
+    description: blogDescription,
+    url: `${DATA.url}/blog`,
+    type: "website",
+  },
+  twitter: {
+    title: `Blog | ${DATA.name}`,
+    description: blogDescription,
+  },
+  alternates: {
+    canonical: `${DATA.url}/blog`,
+  },
 };
 
 const BLUR_FADE_DELAY = 0.04;
