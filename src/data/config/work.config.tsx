@@ -2,18 +2,40 @@ import { ExternalLink, Link } from "lucide-react";
 
 export const WORK = [
   {
-    title: "SmartKnower",
-    role: "Machine learning Intern",
-    dates: "Jan - Mar, 2021",
-    location: "Remote, Bangalore (India)",
+    title: "CaseBase",
+    role: "Full Stack Developer",
+    dates: "Jul 2025 – Present",
+    location: "Remote, USA",
     description:
-      "I performed an ELT operation on a dataset given to me and made it compatible with the algorithm that the company was using to predict the courses that students might want to take in specific places.",
+      "Led a team and implemented RAG using hybrid search on multi-cross retrieval. Upgraded the existing websocket connection to handle notifications and kanban-screen updates. Cleaned up the codebase and implemented end-to-end scheduling management using React-Calendar and PropelAuth for permissions.",
     image: "",
     mlh: "",
     links: [
       {
         title: "Website",
-        href: "",
+        href: "https://casebase.co",
+        icon: <Link className="size-3" />,
+      },
+      {
+        title: "Proof",
+        href: "https://www.linkedin.com/in/rahul-mylink1/",
+        icon: <ExternalLink className="size-3" />,
+      },
+    ],
+  },
+  {
+    title: "QuickSaaS",
+    role: "Product Lead",
+    dates: "Jan 2025 – Jul 2025",
+    location: "Remote, UAE",
+    description:
+      "Led a team of 2 to build and scale a multi-tenant website builder SaaS, serving 500+ users. Enabled businesses to launch custom websites on subdomains and custom domains. Implemented Redis-backed autosave for real-time canvas editing and utilized a CDN for efficient multi-tenant JSON caching.",
+    image: "",
+    mlh: "",
+    links: [
+      {
+        title: "Website",
+        href: "https://quicksaas.io",
         icon: <Link className="size-3" />,
       },
       {
@@ -46,18 +68,18 @@ export const WORK = [
     ],
   },
   {
-    title: "QuickSaaS",
-    role: "Product Lead",
-    dates: "Jan 2024 – Present",
-    location: "Remote, UAE",
+    title: "SmartKnower",
+    role: "Machine learning Intern",
+    dates: "Jan - Mar, 2021",
+    location: "Remote, Bangalore (India)",
     description:
-      "Led a team of 2 to build and scale a multi-tenant website builder SaaS, serving 500+ users. Enabled businesses to launch custom websites on subdomains and custom domains. Implemented Redis-backed autosave for real-time canvas editing and utilized a CDN for efficient multi-tenant JSON caching.",
+      "I performed an ELT operation on a dataset given to me and made it compatible with the algorithm that the company was using to predict the courses that students might want to take in specific places.",
     image: "",
     mlh: "",
     links: [
       {
         title: "Website",
-        href: "https://quicksaas.io",
+        href: "",
         icon: <Link className="size-3" />,
       },
       {

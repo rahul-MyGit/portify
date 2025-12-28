@@ -9,6 +9,32 @@ import { WORK } from "@/data/config/work.config";
 import Image from "next/image";
 import React from "react";
 import Markdown from "react-markdown";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About",
+  description: DATA.about.replace(/\[.*?\]\(.*?\)/g, "").replace(/\*/g, "").slice(0, 160),
+  keywords: [
+    `About ${DATA.name}`,
+    `${DATA.name} Bio`,
+    `${DATA.name} Skills`,
+    `${DATA.name} Experience`,
+    `${DATA.location} Developer`,
+  ],
+  openGraph: {
+    title: `About | ${DATA.name}`,
+    description: DATA.about.replace(/\[.*?\]\(.*?\)/g, "").replace(/\*/g, "").slice(0, 160),
+    url: `${DATA.url}/about`,
+    type: "profile",
+  },
+  twitter: {
+    title: `About | ${DATA.name}`,
+    description: DATA.about.replace(/\[.*?\]\(.*?\)/g, "").replace(/\*/g, "").slice(0, 160),
+  },
+  alternates: {
+    canonical: `${DATA.url}/about`,
+  },
+};
 
 const BLUR_FADE_DELAY = 0.04;
 

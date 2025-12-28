@@ -6,6 +6,36 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ClientWorksCard } from "@/components/client-works-card";
 import { CLIENTWORKS } from "@/data/config/client.config";
 import Link from "next/link";
+import { Metadata } from "next";
+import { DATA } from "@/data/config/site.config";
+
+const projectsDescription = `Explore ${DATA.name}'s portfolio of projects - from web applications to complex ML algorithms. View personal projects and client works.`;
+
+export const metadata: Metadata = {
+  title: "Projects",
+  description: projectsDescription,
+  keywords: [
+    `${DATA.name} Projects`,
+    "Web Development Projects",
+    "Full Stack Projects",
+    ...DATA.skills.slice(0, 5),
+    "Portfolio Projects",
+  ],
+  openGraph: {
+    title: `Projects | ${DATA.name}`,
+    description: projectsDescription,
+    url: `${DATA.url}/projects`,
+    type: "website",
+  },
+  twitter: {
+    title: `Projects | ${DATA.name}`,
+    description: projectsDescription,
+  },
+  alternates: {
+    canonical: `${DATA.url}/projects`,
+  },
+};
+
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Projects() {

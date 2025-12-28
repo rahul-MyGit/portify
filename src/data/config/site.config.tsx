@@ -3,8 +3,9 @@ import { Icons } from "@/components/icons";
 export const DATA = {
     name: "Rahul Gujjar",
     initials: "RG",
-    url: "",
-    resume: "https://drive.google.com/file/d/1j4NMmdnSz9NtdObL64tVhrOof_fsr2Xh/view?usp=sharing",
+    url: "https://www.irahul.in",
+    resume: "https://dub.sh/jMDsbKE",
+    podcast: "https://youtu.be/SweexyXMYYc?si=HnuLux-kJ0dmZKIk",
     prevImage: "https://i.imgur.com/ooHKc0M.png",
     myImage: "/me.png",
     location: "Bangalore, India",
