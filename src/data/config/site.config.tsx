@@ -5,6 +5,7 @@ export const DATA = {
     initials: "RG",
     url: "https://www.irahul.in",
     resume: "https://dub.sh/jMDsbKE",
+    podcast: "https://youtu.be/SweexyXMYYc?si=HnuLux-kJ0dmZKIk",
     prevImage: "https://i.imgur.com/ooHKc0M.png",
     myImage: "/me.png",
     location: "Bangalore, India",

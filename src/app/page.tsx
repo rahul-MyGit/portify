@@ -10,10 +10,9 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/config/site.config";
 import {
   AlarmClock,
-  // CircleArrowOutUpRight,
   LocateFixed,
   Paperclip,
-  // PartyPopper,
+  Youtube,
 } from "lucide-react";
 import Link from "next/link";
 import Markdown from "react-markdown";
@@ -162,13 +161,22 @@ export default function Home() {
                       hour12: true,
                     })}
                   </Badge>
-                  <Link href={DATA.resume}>
+                  <Link href={DATA.resume} target="_blank">
                     <Badge
                       variant="secondary"
                       className="hidden md:flex cursor-pointer"
                     >
                       <Paperclip className="size-4 mr-1" />
                       Resume
+                    </Badge>
+                  </Link>
+                  <Link href={DATA.podcast} target="_blank">
+                    <Badge
+                      variant="secondary"
+                      className="hidden md:flex cursor-pointer"
+                    >
+                      <Youtube className="size-4 mr-1" />
+                      Podcast
                     </Badge>
                   </Link>
                 </div>
