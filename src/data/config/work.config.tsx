@@ -2,9 +2,31 @@ import { ExternalLink, Link } from "lucide-react";
 
 export const WORK = [
   {
+    title: "100xSchool",
+    role: "Development TA",
+    dates: "Sep 2025 – present",
+    location: "Noida, onsite",
+    description:
+      " I mentor more than 200+ students in web development also teaching first principles thinking and practical System Design",
+    image: "",
+    mlh: "",
+    links: [
+      {
+        title: "Website",
+        href: "https://100xSchool.in",
+        icon: <Link className="size-3" />,
+      },
+      {
+        title: "Proof",
+        href: "https://www.linkedin.com/in/rahul-mylink1/",
+        icon: <ExternalLink className="size-3" />,
+      },
+    ],
+  },
+  {
     title: "CaseBase",
     role: "Full Stack Developer",
-    dates: "Jul 2025 – Present",
+    dates: "Jul 2025 – Feb 2026",
     location: "Remote, USA",
     description:
       "Led a team and implemented RAG using hybrid search on multi-cross retrieval. Upgraded the existing websocket connection to handle notifications and kanban-screen updates. Cleaned up the codebase and implemented end-to-end scheduling management using React-Calendar and PropelAuth for permissions.",
@@ -48,7 +70,7 @@ export const WORK = [
   {
     title: "100xDevs",
     role: "Full Stack Developer",
-    dates: "Sep 2023 – Jan 2024",
+    dates: "Aug 2024 – Jan 2025",
     location: "Noida, DEL",
     description:
       "Delivered three end-to-end projects for clients on Toptal. Scaled an e-commerce application from MVP to production and deployed it on Kubernetes. Integrated a fault-tolerant transcoding service with worker failure recovery using RabbitMQ and S3. Developed an AI-powered meeting recorder using Puppeteer and ChatGPT API.",
