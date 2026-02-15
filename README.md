@@ -20,7 +20,7 @@ Full Stack Developer specializing in TypeScript, Python, Rust, Next.js and MERN 
 
 ## 👨‍💻 About Me
 
-I'm a full stack developer with 1+ year of experiance from **Haryana, India**, passionate about building impactful products that leverage technology to make a difference. I actively look to open source codebases and explore ideas in AI and web3.
+I'm a full stack developer with 1.5+ year of experiance from **Haryana, India**, passionate about building impactful products that leverage technology to make a difference. I actively look to open source codebases and explore ideas in AI and web3.
 
 Online, I'm known as **kovachi** - a name that reflects my roots, starting as a shell (gem) used for crafting.
 
